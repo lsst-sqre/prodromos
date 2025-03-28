@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: prodromos
-Version: 0.1.dev0+d20250327
+Version: 0.1.dev1+g7c822cb
 Summary: Provision non-Kubernetes non-GKE stuff for Phalanx apps
 License: The MIT License (MIT)
         
@@ -40,5 +40,7 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: click
 Requires-Dist: httpx
+Requires-Dist: pydantic
 Requires-Dist: safir>=10.0.0
+Requires-Dist: sentry_sdk
 Dynamic: license-file
