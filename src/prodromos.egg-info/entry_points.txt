@@ -1,0 +1,2 @@
+[console_scripts]
+prodromos = prodromos.cli:main
