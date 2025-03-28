@@ -1,0 +1,20 @@
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+max_line_length = 79
+trim_trailing_whitespace = true
+
+[*.{tf,tfvars}]
+indent_size = 2
+indent_style = space
+
+[Makefile]
+tab_width = 2
+indent_style = tab
+
+[COMMIT_EDITMSG]
+max_line_length = 0
