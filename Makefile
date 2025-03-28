@@ -18,3 +18,12 @@ update: update-deps init
 update-deps:
 	uv lock --upgrade
 	uv run --only-group=lint pre-commit autoupdate
+
+plan-all:
+	echo "TODO"
+plan:
+	echo "TODO"
+apply-all:
+	echo "TODO"
+apply:
+	echo "TODO"

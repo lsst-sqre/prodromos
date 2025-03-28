@@ -1,0 +1,44 @@
+base:
+  name: "base"
+  status_channel:
+    name: "status-base-lsp-lsst-codes"
+idfdev:
+  name: "idfdev"
+  status_channel:
+    name: "status-data-dev-lsst-cloud"
+idfint:
+  name: "idfint"
+  status_channel:
+    name: "status-data-int-lsst-cloud"
+idfprod:
+  name: "idfprod"
+  status_channel:
+    name: "status-data-lsst-cloud"
+roundtable-dev:
+  name: "roundtable-dev"
+  status_channel:
+    name: "status-roundtable-dev-lsst-cloud"
+roundtable-prod:
+  name: "roundtable-prod"
+  status_channel:
+    name: "status-roundtable-lsst-cloud"
+summit:
+  name: "summit"
+  status_channel:
+    name: "status-summit-lsp-lsst-codes"
+tucson-teststand:
+  name: "tucson-teststand"
+  status_channel:
+    name: "status-tucson-teststand-lsst-codes"
+usdfdev:
+  name: "usdfdev"
+  status_channel:
+    name: "status-usdf-rsp-dev"
+usdfint:
+  name: "usdfint"
+  status_channel:
+    name: "status-usdf-rsp-int"
+usdfprod:
+  name: "usdfprod"
+  status_channel:
+    name: "status-usdf-rsp"
